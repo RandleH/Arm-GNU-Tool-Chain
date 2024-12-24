@@ -2,3 +2,7 @@
 	path = macOS-AppleSilicon
 	url = https://github.com/RandleH/Arm-GNU-Tool-Chain-macOS-AppleSilicon.git
 	branch = master
+[submodule "macOS-Intel"]
+	path = macOS-Intel
+	url = https://github.com/RandleH/Arm-GNU-Tool-Chain-macOS-Intel.git
+	branch = master
