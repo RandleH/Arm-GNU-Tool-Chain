@@ -2,7 +2,7 @@ arch="$(uname -m)"  # -i is only linux, -m is linux and apple
 if [[ "$arch" = x86_64* ]]; then
   if [[ "$OSTYPE" == "darwin"* ]]; then
     echo "Detect System Environment: macOS Intel x64"
-    git submodule update macOS-Intel
+    git submodule update --init macOS-Intel
   else
     echo "Unsupported!"
     exit 1
@@ -10,7 +10,7 @@ if [[ "$arch" = x86_64* ]]; then
 elif [[ "$arch" = arm64* ]]; then
   if [[ "$OSTYPE" == "darwin"* ]]; then
     echo "Detect System Environment: macOS Apple Silicon"
-    git submodule update macOS-AppleSilicon
+    git submodule update --init macOS-AppleSilicon
   else
     echo "Unsupported!"
     exit 1
