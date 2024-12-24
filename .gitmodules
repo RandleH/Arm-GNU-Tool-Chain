@@ -1,0 +1,4 @@
+[submodule "macOS-AppleSilicon"]
+	path = macOS-AppleSilicon
+	url = https://github.com/RandleH/Arm-GNU-Tool-Chain-macOS-AppleSilicon.git
+	branch = master
